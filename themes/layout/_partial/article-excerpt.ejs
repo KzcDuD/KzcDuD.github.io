@@ -1,0 +1,44 @@
+<div class="main">
+<div class="blog-post">
+    <!-- Title -->
+    <% if (item.link){ %>
+      <h1 class="blog-post-title">
+        <a href="<%- url_for(item.link) %>" target="_blank" itemprop="url"><%- titlecase(item.title) || titlecase(item.link) %></a>
+      </h1>
+    <% } else if (item.title){ %>
+      <h1 class="blog-post-title">
+        <a href="<%- url_for(item.path) %>"><%- titlecase(item.title) %></a>
+      </h1>
+    <% } else{%>
+      <h1 class="blog-post-title">
+        <a href="<%- url_for(item.path) %>">No-title</a>
+      </h1>
+    <% }%>
+    <!-- Date and Author -->
+    <p class="blog-post-meta">
+        <%= item.date.format(config.date_format) %>
+        <% if(item.author) { %>
+            by <%- item.author %>
+        <% } %>
+    </p>
+
+    <%- partial('gallery', {item: item}) %>
+    <!-- Content -->
+    <%- item.excerpt || item.content %>
+    <!-- Only display the Read More link if we are displaying an excerpt -->
+    <% if(item.excerpt) { %>
+        <p id="readmore">
+            <a href="<%- config.root %><%- item.path %>">
+                <%= theme.excerpt_link %> >>>
+            </a>
+        </p>
+    <% } %>
+
+    <hr />
+
+    <%- partial('article-categories', {item: item}) %>
+    <%- partial('article-tags', {item: item}) %>
+
+
+</div>
+</div>

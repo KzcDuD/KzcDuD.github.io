@@ -1,0 +1,23 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+
+# Social
+disqus_shortname:
+share_enabled: true
+twitter:
+instagram:
+pinterest:
+github:
+google_plus:
+fb_admins:
+fb_app_id:
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon/favicon.ico
