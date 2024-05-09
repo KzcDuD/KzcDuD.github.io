@@ -21,7 +21,7 @@ function count() {
   document.getElementById('timeout').textContent = countTime;
   countTime -= 1;
   if(countTime === 0){
-    location.href = 'https://kzcdud.github.io/'; // 記得改成自己網址 Url
+    location.href = 'https://kzcdud.github.io/';
   }
   setTimeout(() => {
     count();

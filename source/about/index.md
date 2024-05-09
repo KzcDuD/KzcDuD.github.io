@@ -1,8 +1,7 @@
 ---
-title: about
+title: About
 date: 2024-05-09 22:49:28
 ---
-
 
 <h1 align="center">
   <a href="https://KzcDuD.github.io" style="color: #708090;">KzcDuD</a>
