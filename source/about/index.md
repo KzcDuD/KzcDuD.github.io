@@ -9,7 +9,7 @@ description: About me
   
   <br />
 
-  <img src="../../img/avatar.jpg" alt="avatar" style="width: 220px; height: 200px;">
+  <img src="https://github.com/KzcDuD/KzcDuD/blob/main/Head_sticker.jpg" alt="avatar" style="width: 220px; height: 200px;">
 </h1>
 
 ### About Me
@@ -50,7 +50,6 @@ description: About me
     <img src="https://skillicons.dev/icons?i=pytorch,flask" />
   </a>
 </p>
-
 
 
 ---

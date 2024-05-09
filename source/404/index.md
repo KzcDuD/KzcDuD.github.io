@@ -7,13 +7,12 @@ permalink: /404.html
 
 <!-- markdownlint-disable MD039 MD033 -->
 
-## 這是一個不存在的頁面
+### 這是一個不存在的頁面
 
-Sorry, the page you are currently accessing does not exist.
-
+>Sorry, the page you are currently accessing does not exist.
 Expect to return to the home page in <span id="timeout">5</span> seconds.
 
-**[home page](https://KzcDuD.github.com)** 
+**[home page](https://kzcdud.github.io/)** 
 
 <script>
 let countTime = 5;
@@ -23,7 +22,7 @@ function count() {
   document.getElementById('timeout').textContent = countTime;
   countTime -= 1;
   if(countTime === 0){
-    location.href = 'https://KzcDuD.github.com'; // 記得改成自己網址 Url
+    location.href = 'https://kzcdud.github.io/'; // 記得改成自己網址 Url
   }
   setTimeout(() => {
     count();
