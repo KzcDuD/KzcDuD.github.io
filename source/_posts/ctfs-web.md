@@ -1,7 +1,8 @@
 ---
 title: ctfs-web
 date: 2024-05-09 12:30:09
-tags:
+tags: ctfs
+description: PicoCTF web writeUp !
 ---
 
 Http method
