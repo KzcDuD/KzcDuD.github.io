@@ -3,12 +3,13 @@ title: about
 date: 2024-05-09 22:49:28
 ---
 
+
 <h1 align="center">
   <a href="https://KzcDuD.github.io" style="color: #708090;">KzcDuD</a>
   
   <br />
 
-  <img src="https://github.com/KzcDuD/KzcDuD/blob/main/Head_sticker.jpg" alt="avatar" style="width: 220px; height: 200px;">
+  <img src="/images/avatar.jpg" alt="avatar" style="width: 220px; height: 200px;">
 </h1>
 
 ### About Me
@@ -21,7 +22,6 @@ date: 2024-05-09 22:49:28
 + 2023 CyberPunk2077 **AllDone**
 + 2024/04/13 Elden Ring **pass**
 
----
 
 ### Tags
 

@@ -9,13 +9,12 @@ permalink: /404.html
 
 ### 這是一個不存在的頁面
 
->Sorry, the page you are currently accessing does not exist.
 Expect to return to the home page in <span id="timeout">5</span> seconds.
 
 **[home page](https://kzcdud.github.io/)** 
 
 <script>
-let countTime = 5;
+let countTime = 30;
 
 function count() {
   
