@@ -1,7 +1,6 @@
 ---
 title: about
 date: 2024-05-09 22:49:28
-description: About me
 ---
 
 <h1 align="center">
@@ -14,28 +13,21 @@ description: About me
 
 ### About Me
 
-+ A student in `CSIE`
++ A student in **CSIE**
 + Playing CTFs 
 
 ### My Game Record
 
-+ 2023 CyberPunk2077 `AllDone`
-+ 2024/04/13 Elden Ring `pass`
++ 2023 CyberPunk2077 **AllDone**
++ 2024/04/13 Elden Ring **pass**
 
 ---
 
 ### Tags
 
-
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bash,c,cpp,py,java,latex" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=github,vim,vscode,docker" />
+    <img src="https://skillicons.dev/icons?i=pytorch,flask" />
   </a>
 </p>
 
@@ -47,10 +39,15 @@ description: About me
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,flask" />
+    <img src="https://skillicons.dev/icons?i=github,vim,vscode,docker" />
   </a>
 </p>
 
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=bash,c,cpp,py,java,latex" />
+  </a>
+</p>
 
 ---
 
