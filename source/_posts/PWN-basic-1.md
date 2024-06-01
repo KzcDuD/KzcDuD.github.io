@@ -25,7 +25,6 @@ Basic
 ELF (Executable and Linkable Format)
 --
 **INTRO**
-
 ![image](https://hackmd.io/_uploads/HJ-AkIhHp.png)
 
 **ELF-workflow (static)**
