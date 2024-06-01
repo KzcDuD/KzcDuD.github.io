@@ -7,7 +7,7 @@ permalink: /404.html
 
 <!-- markdownlint-disable MD039 MD033 -->
 
-### 這是一個不存在的頁面
+---
 
 Expect to return to the home page in <span id="timeout">5</span> seconds.
 

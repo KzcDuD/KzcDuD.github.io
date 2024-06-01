@@ -1,5 +1,5 @@
 ---
-title: pwn-basic
+title: pwn-basic-1
 date: 2024-06-02 12:30:09
 tags: ctfs
 description: Learning From yuawn !
@@ -25,19 +25,24 @@ Basic
 ELF (Executable and Linkable Format)
 --
 **INTRO**
-![image](https://hackmd.io/_uploads/HJ-AkIhHp.png =80%x)
+
+![image](https://hackmd.io/_uploads/HJ-AkIhHp.png)
 
 **ELF-workflow (static)**
-![image](https://hackmd.io/_uploads/B1bbxL3BT.png =80%x)
+
+![image](https://hackmd.io/_uploads/B1bbxL3BT.png)
 
 **ELF-workflow (static)**
-![image](https://hackmd.io/_uploads/ByEfeI2rT.png =80%x)
+
+![image](https://hackmd.io/_uploads/ByEfeI2rT.png)
 
 **ElF-section**
-![image](https://hackmd.io/_uploads/B1WKkIhH6.png =80%x)
+
+![image](https://hackmd.io/_uploads/B1WKkIhH6.png)
 
 **ELF-Protections**
-![image](https://hackmd.io/_uploads/BJdLlU3HT.png =80%x)
+
+![image](https://hackmd.io/_uploads/BJdLlU3HT.png)
 
 <br/>
 
@@ -138,29 +143,29 @@ x86_64
 
 ### Assembly Registers
 
-![image](https://hackmd.io/_uploads/HJD7d0-Dp.png =80%x)
+![image](https://hackmd.io/_uploads/HJD7d0-Dp.png)
 
 ### Special Registers
     
-![image](https://hackmd.io/_uploads/B1yrdC-wa.png =90%x)
+![image](https://hackmd.io/_uploads/B1yrdC-wa.png)
 
 ### Instruction
 
-![image](https://hackmd.io/_uploads/SyBRu0-Pa.png =90%x) 
+![image](https://hackmd.io/_uploads/SyBRu0-Pa.png) 
 
-![image](https://hackmd.io/_uploads/B1nkF0-D6.png =90%x)
+![image](https://hackmd.io/_uploads/B1nkF0-D6.png)
 
 
 
 ### x64 calling convention
 
-![image](https://hackmd.io/_uploads/HJjXtRbPT.png =90%x)
+![image](https://hackmd.io/_uploads/HJjXtRbPT.png)
 
 
 ## Stack Frame
 
 ### Stack Struct
-![image](https://hackmd.io/_uploads/B1O2qC-wa.png =90%x)
+![image](https://hackmd.io/_uploads/B1O2qC-wa.png)
 
 **往低地址找**
 
@@ -173,27 +178,27 @@ Function Prologue & Epilogue
 --
 
 ### Prologue
-![image](https://hackmd.io/_uploads/Byt_YyE96.png =90%x)
+![image](https://hackmd.io/_uploads/Byt_YyE96.png)
 
 + **call func** = `push next-rip` `jmp func`
 + `mov eax,0` `push` **func allcation** in RAM
 + **rip ->** `func : push rbp` `##save rbp`
 + `mov rbp,rsp`
-![image](https://hackmd.io/_uploads/H16_6k4cT.png =80%x)
+![image](https://hackmd.io/_uploads/H16_6k4cT.png)
 + `sub rsp,0x70` **0x70 compiler 決定 >>** `To store local variable`
-![image](https://hackmd.io/_uploads/HJckngNcT.png =90%x)
+![image](https://hackmd.io/_uploads/HJckngNcT.png)
 + **Prologue finish**
 <br/>
 
 ### Epilogue
 
-![image](https://hackmd.io/_uploads/ry1KMlNc6.png =50%x)
+![image](https://hackmd.io/_uploads/ry1KMlNc6.png)
 + **leave** = `mov rsp,rbp` `pop rbp`
 + `pop rbp` **-> get** `saved rbp` **segment.**
 + **ret** = `pop rip`
 + **epilogue finish**
 + `rip` **Back to next**
-![image](https://hackmd.io/_uploads/rJEyce4q6.png =80%x)
+![image](https://hackmd.io/_uploads/rJEyce4q6.png)
 
 <br>
 <br>
@@ -299,12 +304,12 @@ Protector
 ### stack-protector
 
 + With protector
-![image](https://hackmd.io/_uploads/ryWOmUF5T.png =80%x)
+![image](https://hackmd.io/_uploads/ryWOmUF5T.png)
 + **If overflow**
-![image](https://hackmd.io/_uploads/Hkm_8IF5a.png =80%x)
+![image](https://hackmd.io/_uploads/Hkm_8IF5a.png)
 
 ### Canary
-![image](https://hackmd.io/_uploads/rky6Qx_cp.png =80%x)
+![image](https://hackmd.io/_uploads/rky6Qx_cp.png)
 
 >編譯器會將一個特殊的值（canary value）插入到函式的堆疊框架中，通常是在函式的返回地址之前。當函式執行完成時，編譯器會檢查這個 canary value 是否被修改。如果 canary value 被修改，則認為發生了**堆疊溢位**，可能是一次攻擊，因此程式執行會被**中斷**或採取其他相應的安全措施。
 
