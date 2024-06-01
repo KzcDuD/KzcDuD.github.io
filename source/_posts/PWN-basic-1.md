@@ -1,7 +1,8 @@
 ---
 title: pwn-basic-1
 date: 2024-06-02 12:30:09
-tags: ctfs
+tags: CTFs
+categories: CTFs
 description: Learning From yuawn !
 ---
 

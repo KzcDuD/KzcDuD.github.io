@@ -1,7 +1,8 @@
 ---
 title: ctfs-web-1
 date: 2024-05-09 12:30:09
-tags: ctfs
+tags: CTFs
+categories: CTFs
 description: PicoCTF web writeUp !
 ---
 
