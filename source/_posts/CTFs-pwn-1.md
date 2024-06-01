@@ -1,7 +1,8 @@
 ---
 title: CTFs-pwn-1
 date: 2024-06-02
-tags: ctfs
+tags: CTFs
+categories: CTFs
 description: PicoCTF pwn writeUp !
 ---
 

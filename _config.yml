@@ -101,7 +101,8 @@ theme: nexT
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/KzcDuD/KzcDuD.github.io.git # https://github.com/[你的 GitHub 帳號]/[你的 GitHub 帳號].github.io.git
-  branch: gh-page # 在這邊我是使用 mster 當作主要分支
-  message: ''
+  type: "" 
+  # type: git
+  # repo: https://github.com/KzcDuD/KzcDuD.github.io.git # https://github.com/[你的 GitHub 帳號]/[你的 GitHub 帳號].github.io.git
+  # branch: gh-page 
+  # message: ''
